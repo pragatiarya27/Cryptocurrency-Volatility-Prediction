@@ -1,0 +1,199 @@
+1. Source Code
+
+This folder contains all scripts used in the project.
+
+Example files:
+
+data_preprocessing.py → cleaning dataset
+
+feature_engineering.py → creating features
+
+model_training.py → training ML model
+
+model_evaluation.py → calculating RMSE, MAE, R²
+
+app.py → Streamlit or Flask deployment
+
+2. EDA Report
+
+The EDA report should include:
+
+Dataset Overview
+
+Number of rows and columns
+
+Feature descriptions
+
+Summary Statistics
+
+Mean
+
+Median
+
+Standard deviation
+
+Min and Max
+
+Visualizations
+
+Include graphs such as:
+
+Price trend graph
+
+Volume distribution
+
+Correlation heatmap
+
+Volatility distribution
+
+Example plots:
+
+Line chart of closing prices
+
+Histogram of price distribution
+
+Heatmap of feature correlation
+
+3. HLD (High-Level Design)
+
+High-Level Design explains the overall architecture of the system.
+
+Components
+
+Data Collection
+
+Data Preprocessing
+
+Feature Engineering
+
+Model Training
+
+Model Evaluation
+
+Deployment
+
+Architecture Diagram (Example)
+Dataset
+   ↓
+Data Preprocessing
+   ↓
+Feature Engineering
+   ↓
+Model Training
+   ↓
+Model Evaluation
+   ↓
+Prediction System
+4. LLD (Low-Level Design)
+
+Low-Level Design explains how each module is implemented.
+
+Module	Description
+Data Loader	Loads dataset using pandas
+Preprocessing Module	Handles missing values and normalization
+Feature Engineering Module	Creates volatility indicators
+Model Module	Random Forest training
+Evaluation Module	Calculates RMSE, MAE, R²
+Deployment Module	Streamlit or Flask interface
+5. Pipeline Architecture
+
+The data pipeline shows how data flows through the system.
+
+Raw Data
+   ↓
+Data Cleaning
+   ↓
+Feature Engineering
+   ↓
+Train-Test Split
+   ↓
+Model Training
+   ↓
+Model Evaluation
+   ↓
+Prediction Interface
+
+This pipeline ensures structured processing of cryptocurrency data.
+
+6. Final Report
+
+The final report should include:
+
+Introduction
+
+Explain the importance of cryptocurrency volatility prediction.
+
+Dataset Description
+
+Describe features like:
+
+open
+
+high
+
+low
+
+close
+
+volume
+
+marketCap
+
+timestamp
+
+crypto_name
+
+date
+
+Methodology
+
+Explain steps followed:
+
+Data preprocessing
+
+Feature engineering
+
+Model training
+
+Results
+
+Show model performance using:
+
+RMSE
+
+MAE
+
+R² Score
+
+7.Conclusion
+
+Summarize the results and how the model can help traders predict volatility.
+
+8.requirements.txt (Example)
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+streamlit
+joblib
+README.md (Short Example)
+Cryptocurrency Volatility Prediction
+
+This project predicts cryptocurrency volatility using machine learning
+based on historical price and market data.
+
+Technologies Used:
+Python
+Pandas
+Scikit-Learn
+Matplotlib
+Streamlit
+
+Model:
+Random Forest Regressor
+
+Evaluation Metrics:
+RMSE
+MAE
+R2 Score
